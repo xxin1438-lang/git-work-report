@@ -23,7 +23,7 @@
   "author": "",
   "type": "module",
   "bin": {
-    "git-work-report": "./bin/git-work-report.js"
+    "git-work-report": "bin/git-work-report.js"
   },
   "files": [
     "bin",
