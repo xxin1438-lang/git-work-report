@@ -1,5 +1,5 @@
 {
-  "name": "git-work-report",
+  "name": "@xingxin1438/git-work-report",
   "version": "1.0.0",
   "description": "Cursor skill: generate daily/weekly/monthly work reports from git commits for developers",
   "keywords": [
@@ -37,5 +37,8 @@
   ],
   "engines": {
     "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

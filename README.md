@@ -6,7 +6,7 @@
 不用再对着 `git log` 一条条拼凑，也不用担心 commit 写得太简略——Agent 会帮你还原「这周做了什么」。
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![npm](https://img.shields.io/npm/v/git-work-report.svg)](https://www.npmjs.com/package/git-work-report)
+[![npm](https://img.shields.io/npm/v/@xingxin1438/git-work-report.svg)](https://www.npmjs.com/package/@xingxin1438/git-work-report)
 
 ---
 
@@ -31,13 +31,13 @@
 ### 方式一：npm 一键安装（推荐）
 
 ```bash
-npx git-work-report install
+npx @xingxin1438/git-work-report install
 ```
 
 或全局安装：
 
 ```bash
-npm install -g git-work-report
+npm install -g @xingxin1438/git-work-report
 git-work-report install
 ```
 
@@ -59,9 +59,9 @@ git-work-report install
 在公司项目里初始化自定义模板目录：
 
 ```bash
-npx git-work-report scaffold
+npx @xingxin1438/git-work-report scaffold
 # 或指定路径
-npx git-work-report scaffold ./your-project
+npx @xingxin1438/git-work-report scaffold ./your-project
 ```
 
 会在项目根创建 `.git-work-report/`（config、templates、examples）。

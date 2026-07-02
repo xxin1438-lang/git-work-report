@@ -12,9 +12,9 @@ git-work-report — 安装 Cursor skill，从 git commit 生成日报/周报/月
   git-work-report help                 显示帮助
 
 示例:
-  npx git-work-report install
-  npx git-work-report scaffold
-  npx git-work-report scaffold ./my-project
+  npx @xingxin1438/git-work-report install
+  npx @xingxin1438/git-work-report scaffold
+  npx @xingxin1438/git-work-report scaffold ./my-project
 
 环境变量:
   CURSOR_HOME   Cursor 配置目录（默认 ~/.cursor）
