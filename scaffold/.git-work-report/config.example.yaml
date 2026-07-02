@@ -1,0 +1,30 @@
+# .git-work-report 配置示例
+# 复制为 config.yaml 后按需修改
+
+week:
+  start: monday
+  end: friday
+  weekendBehavior: current   # 周末执行周报时指刚结束的工作周
+
+# 覆盖 git config user.email，多作者时可配置多个（需 skill 扩展）
+author: "you@example.com"
+
+# 多仓库路径（绝对路径）
+repos: []
+#  - /path/to/project-a
+#  - /path/to/project-b
+
+language: ch   # ch | en
+
+# 过滤 commit subject 关键词
+exclude:
+  - "wip:"
+  - "merge branch"
+
+# 可选：从 openspec 读取未完成任务作为计划建议
+openspecDir: openspec/changes
+
+defaultTemplate:
+  daily: daily
+  weekly: weekly
+  monthly: monthly

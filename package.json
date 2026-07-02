@@ -1,0 +1,41 @@
+{
+  "name": "git-work-report",
+  "version": "1.0.0",
+  "description": "Cursor skill: generate daily/weekly/monthly work reports from git commits for developers",
+  "keywords": [
+    "cursor",
+    "git",
+    "report",
+    "daily-report",
+    "weekly-report",
+    "skill",
+    "developer-tools"
+  ],
+  "homepage": "https://github.com/xxin1438-lang/git-work-report#readme",
+  "bugs": {
+    "url": "https://github.com/xxin1438-lang/git-work-report/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xxin1438-lang/git-work-report.git"
+  },
+  "license": "MIT",
+  "author": "",
+  "type": "module",
+  "bin": {
+    "git-work-report": "./bin/git-work-report.js"
+  },
+  "files": [
+    "bin",
+    "lib",
+    "skill",
+    "commands",
+    "scaffold",
+    "setup.sh",
+    "LICENSE",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  }
+}
